@@ -1,0 +1,53 @@
+body {
+    background: lightgrey;
+}
+h1:hover{
+    color: chocolate;
+}
+
+p:hover{
+    
+    color: chocolate;
+}
+button {
+    margin-top: 50px; display: flex;;
+}
+.Download button:hover {
+    background-color: orangered;
+}
+.kiri .desc p {
+    font-size: 18px;
+    font-weight: bold;
+}
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    padding: 4px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+a:hover {
+    color: white;
+    background-color: chocolate;
+}
+.nav-kiri {
+    flex: 50%;
+}
+.nav-kanan {
+    text-align: end;
+}
+
